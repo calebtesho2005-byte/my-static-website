@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Tesho | Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-slideshow" aria-hidden="true">
+            <img src="image/WhatsApp Image 2026-09-28 at 00.51.34.jpeg" alt="Green landscape background for my personal portfolio hero section">
+            <img src="image/WhatsApp Image 2026-09-28 at 00.51.35.jpeg" alt="Another natural background image used in the hero banner of my website">
+        </div>
+
+        <nav class="topbar" aria-label="Primary navigation">
+            <div class="brand-logo" aria-label="Caleb Tesho personal website logo" title="Caleb Tesho personal website logo">CT</div>
+            <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+                Menu
+            </button>
+            <div id="navMenu" class="nav-links">
+                <a href="#about">About Me</a>
+                <a href="#hobbies">My Hobbies</a>
+                <a href="#learning">My Learning Plan</a>
+                <a href="#photos">My Photos</a>
+                <a href="#media">My Media</a>
+                <a href="#projects">Projects & Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch colour theme">
+                Dark mode
+            </button>
+        </nav>
+
+        <div class="hero-content">
+            <p class="eyebrow">Student Portfolio</p>
+            <h1>Caleb Tesho</h1>
+            <p class="programme">Programme: Computer Science</p>
+            <p>Welcome to my personal website where I share my learning journey, creative interests, and the digital skills I am building every day.</p>
+            <a class="primary-link" href="#projects">View My Projects</a>
+        </div>
+    </header>
+
+    <div class="nature-strip" aria-hidden="true"></div>
+
+    <main>
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a student at <strong>Mulungushi University</strong>, studying <strong>Computer Science</strong>, and I am passionate about technology, problem solving, and the creativity behind digital design. I enjoy learning how websites, software, and online systems are built, and I find it exciting to create ideas that can help people in everyday life. Through practice, I am improving my programming, design, and communication skills so I can become a confident and capable developer. My goal is to keep growing through projects, teamwork, and consistent effort while building useful solutions for the future.
+            </p>
+        </section>
+
+        <section id="hobbies" class="card">
+            <h2>My Hobbies</h2>
+            <ul class="list">
+                <li>Listening to music</li>
+                <li>Playing games</li>
+                <li>Taking pictures</li>
+            </ul>
+        </section>
+
+        <section id="learning" class="card">
+            <h2>My Learning Plan</h2>
+            <ol class="list ordered">
+                <li>Improve my HTML and CSS skills by organizing content clearly and styling it responsively.</li>
+                <li>Learn JavaScript so I can add interactive elements such as image navigation and form validation.</li>
+                <li>Practice creating small personal projects and keep improving them through real feedback and revision.</li>
+            </ol>
+
+            <table>
+                <caption>My Weekly Web Learning Plan</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>Create webpage structure</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS</td>
+                        <td>Style pages for readability and layout</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript</td>
+                        <td>Practice interactive features</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="resource">
+                I use <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer">W3Schools HTML tutorial</a> to strengthen my understanding of web development and interactive design.
+            </p>
+        </section>
+
+        <section id="photos" class="card">
+            <h2>My Photos</h2>
+
+            <div class="gallery" aria-live="polite">
+                <img id="galleryImage" src="image/WhatsApp Image 2026-09-28 at 00.06.20.jpeg" alt="My first personal photo showing a natural outdoor scene">
+                <p id="galleryCaption">Photo 1: Outdoor scenery from my personal archive.</p>
+                <div class="galleryButtons">
+                    <button type="button" id="previousPhoto">Previous</button>
+                    <button type="button" id="nextPhoto">Next</button>
+                </div>
+                <p id="galleryCounter">Photo 1 of 3</p>
+            </div>
+        </section>
+
+        <section id="media" class="card">
+            <h2>My Media</h2>
+
+            <div class="media-block">
+                <h3>Introduction Video</h3>
+                <p class="media-summary">This short video introduces my learning journey and gives a quick overview of my personal interests and goals.</p>
+                <video controls width="640" preload="metadata">
+                    <source src="videos/WhatsApp Video 2026-09-28 at 20.09.51.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+
+            <div class="media-block">
+                <h3>Audio Reflection</h3>
+                <p class="media-summary">This audio clip is a short reflection about my studies, my goals, and the importance of staying motivated while learning.</p>
+                <audio controls preload="auto">
+                    <source src="videos/audio/WhatsApp Audio 2026-09-28 at 20.18.29.aac" type="audio/aac">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <h2>Projects and Skills</h2>
+            <div class="projects-grid">
+                <article>
+                    <h3>Semantic HTML</h3>
+                    <p>I learned to organize page content with proper headings, sections, navigation, and meaningful structure for accessibility.</p>
+                </article>
+                <article>
+                    <h3>Responsive CSS</h3>
+                    <p>I improved my styling skills by creating layouts, spacing, colors, and responsive design that adapt well to different screens.</p>
+                </article>
+                <article>
+                    <h3>JavaScript Interactions</h3>
+                    <p>I built simple interactive features such as image slides, button controls, and form validation to make the page more engaging.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Email me at <a href="mailto:calebtesho2005@gmail.com">calebtesho2005@gmail.com</a></p>
+            <p class="form-note">Browser demonstration only — no message is sent.</p>
+            <form id="contactForm" novalidate>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic" required>
+                    <option value="">Select a topic</option>
+                    <option value="web">Web Development</option>
+                    <option value="school">School</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+                <div id="formFeedback" aria-live="polite"></div>
+                <div id="messagePreview" hidden>
+                    <p id="previewName"></p>
+                    <p id="previewEmail"></p>
+                    <p id="previewMessage"></p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Caleb Tesho | Student Website
+    </footer>
+
+    <a class="floating-home" href="#about" aria-label="Return to the top of the page" title="Return to the top of the page">Home</a>
+</body>
+</html>
